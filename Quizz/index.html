@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="app">
+        <h1>Riyaziyyat</h1>
+        <div class="quiz">
+            <h2 id="question">Sual beledir</h2>
+            <div id="answer-buttons">
+                <button class="btn">Cavab 1</button>
+                <button class="btn">Cavab 2</button>
+                <button class="btn">Cavab 3</button>
+                <button class="btn">Cavab 4</button>
+            </div>
+            <button id="next-btn">Növbeti</button>
+        </div>
+    </div>
+
+
+<div class="app">
+    <h1>Elifba</h1>
+    <div class="quiz">
+        <h2 id="question2">Sual beledir</h2>
+        <div id="answer-buttons">
+            <button class="btn">Cavab 1</button>
+            <button class="btn">Cavab 2</button>
+            <button class="btn">Cavab 3</button>
+            <button class="btn">Cavab 4</button>
+        </div>
+        <button id="next-btn">Növbeti</button>
+    </div>
+</div>
+
+<div class="app">
+    <h1>Heyvan</h1>
+    <div class="quiz">
+        <h2 id="question2"><img src="FELV-cat.jpg" alt=""></h2>
+        <div id="answer-buttons">
+            <button class="btn">Cavab 1</button>
+            <button class="btn">Cavab 2</button>
+            <button class="btn">Cavab 3</button>
+            <button class="btn">Cavab 4</button>
+        </div>
+        <button id="next-btn">Növbeti</button>
+    </div>
+</div>
+
+
+
+   
+
+
+    
+
+    <button class="category" id="category" onclick="open_category()">Category</button>
+
+    <div class="container2">
+
+        <div id="boxc" class="boxc" >
+
+
+        <div class="catbox">
+            <button class="mathb">Math</button>
+            <button class="alphabetb">Alphabet</button>
+            <button class="animalsb">Animals</button>
+
+            <span class="close"><button class="close-b" onclick="close_category()" class="x">x</button></span>
+        </div>
+
+    </div>
+</div>
+</div>
+    <br>
+
+
+    <button class="open" id="open" onclick="open_box()">Admin panel</button>
+
+
+    <div class="container">
+
+        <div class="box" id="box">
+
+            <button class="change">Change</button>
+            <input type="search" class="inpad">
+
+
+
+            <div class="adbox">
+
+                <div class="admin-panel">
+
+                    <h2 class="adminh">Admin Panel</h2>
+
+                    <form id="add-form">
+                        <label for="question" class="questionlb">Question:</label><br>
+                        <input type="text" id="question" name="question" class="questionlb"><br>
+
+                        <label for="answer1" class="questionlb">Cavab 1:</label><br>
+                        <input type="text" id="answer1" name="answer1" class="questionlb"><br>
+
+                        <label for="answer2" class="questionlb">Cavab 2:</label><br>
+                        <input type="text" id="answer2" name="answer2" class="questionlb"><br>
+
+                        <label for="answer3" class="questionlb">Cavab 3:</label><br>
+                        <input type="text" id="answer3" name="answer3" class="questionlb"><br>
+
+                        <label for="answer4" class="questionlb">Cavab 4:</label><br>
+                        <input type="text" id="answer4" name="answer4" class="questionlb"><br>
+
+                        <button type="button" onclick="submitAddQuestion()" class="add">Elave ele</button>
+
+
+
+                    </form>
+
+
+
+
+                    <span class="close"><button class="close-b" onclick="close_box()" class="x">x</button></span>
+                    <button class="delete">Delete</button>
+                    <input type="search" class="deletein">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="alp.js"></script>
+    <script src="math.js"></script>
+    <script src="popup.js"></script>
+
+
+
+
+    
+</body>
+
+</html>

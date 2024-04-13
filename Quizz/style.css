@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #066d84;
+}
+
+.app, .appAlp {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app, .appAlp h1 {
+    font-size: 25px;
+    color: #228bc8;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.quiz, .quizAlp {
+    padding: 20px 0;
+}
+
+.quiz, .quizAlp h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #48bcbc;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+
+}
+
+
+
+#add-question-modal {
+    margin-bottom: -800px;
+    margin-left: 80px;
+}
+
+#change-question-modal {
+
+    margin-left: 80px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #066d84;
+}
+
+.app, .appAlp {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app, .appAlp h1 {
+    font-size: 25px;
+    color: #228bc8;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.quiz, .quizAlp {
+    padding: 20px 0;
+}
+
+.quiz, .quizAlp h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #48bcbc;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn, #next-btn2 {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+
+}
+
+
+
+#add-question-modal {
+    margin-bottom: -800px;
+    margin-left: 80px;
+}
+
+#change-question-modal {
+
+    margin-left: 80px;
+}
+
+
+
+.adbox {
+    width: 1400px;
+    height: 500px;
+    background-color: rgb(67, 47, 155);
+    border: solid 2px black;
+    margin-top: -400px;
+    margin-left: 60px;
+}
+
+.adminh {
+    color: #fff;
+    padding-left: 170px;
+    padding-top: 80px;
+    font-size: 50px;
+   
+}
+
+
+
+
+
+.add {
+    margin-left: -1100px;
+    margin-top: 10px;
+}
+
+/**buttons*/
+
+
+.questionlb {
+    margin-left: -1100px;
+}
+
+.add {
+    margin-left: -1100px;
+}
+
+
+.add {
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background, color .1s ease-in-out;
+
+}
+
+.add:hover {
+
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/*Labels*/
+
+label {
+    color: #B4886B;
+    font-weight: bold;
+    width: 130px;
+    
+  
+  }
+
+
+  
+.change {
+    
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background, color .1s ease-in-out;
+    margin-left: -1200px;
+    margin-bottom: 200px;
+    
+
+}
+
+.change:hover {
+
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+  .inpad {
+  margin-right: -200px;
+  }
+
+
+  .delete {
+    
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background-color: #ffffff;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background, color .1s ease-in-out;
+    margin-left: -510px;
+   
+    
+
+}
+
+.delete:hover {
+
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/*Cateogry style*/
+/* 
+.category{
+    height: 50px;
+    width: 100px;
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+.category:hover {
+    color: wheat;
+    transition: 0.5s;
+}
+
+/*Category styling*/
+
+/* .category{
+    border: none;
+    padding: 7px 25px;
+    background-color: rgb(73, 41, 177);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+   
+    
+}
+
+
+.boxc{
+
+    background-color: rgb(238, 57, 57);
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+   
+}  */
+
+
+.category{
+    border: none;
+    padding: 7px 25px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+}
+
+.category:hover {
+    background-color: rgb(111, 41, 209);
+    transition: 0.5s;
+}
+
+.boxc{
+  
+    color: rgb(9, 9, 9);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+   
+}
+
+.close{
+    display: flex;
+    margin-left:1375px;
+    margin-top: -120px;
+   
+}
+
+.close-b{
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.catbox {
+    width: 1400px;
+    height: 500px;
+    background-color: rgb(67, 47, 155);
+    border: solid 2px black;
+    margin-top: -400px;
+    margin-left: 60px;
+}
+
+.mathb, .alphabetb, .animalsb {
+    color: red;
+    background-color: #000;
+    font-size: 60px;
+    cursor: pointer;
+    margin-top: 200px;
+    
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
